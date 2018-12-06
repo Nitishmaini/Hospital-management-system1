@@ -1,0 +1,178 @@
+<html>
+<head>
+	<title> Lovely Hospital </title>
+	
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	
+</head>
+<body>
+	<script type="text/javascript">
+function abc(){
+var a=document.forms["myForm"]["name"].value;
+var b=document.forms["myForm"]["name1"].value;
+var c=document.forms["myForm"]["email"].value;
+var d=document.forms["myForm"]["mobile"].value;
+var e=document.forms["myForm"]["date"].value;
+var f=document.forms["myForm"]["message"].value;
+if(a=="")
+{
+alert("Enter FirstName");
+return false;
+}
+if(b=="")
+{
+alert("Enter LastName");
+return false;
+}
+if(c=="")
+{
+alert("Enter E-Mail");
+return false;
+}
+if(d=="")
+{
+alert("Enter Mobile No.");
+return false;
+}
+if(e=="")
+{
+alert("Enter the date");
+return false;
+}
+if(f=="")
+{
+alert("Enter your message");
+return false;
+}
+if(a&&b&&c&&d&&e&&f!=0)
+{
+alert("Appointment Done.");
+}
+}
+</script>
+<form name="myForm" onsubmit="return abc()"method="post">
+	<div class="top">
+		<div>
+		 Contact Us +91 9149608858 | Lovely@hospital.com 
+		</div>
+	</div>
+	
+	<div class="logo">
+		<div>
+			<table>
+				<tr>
+					<td width="600px" style="font-size:50px;font-family:forte;"> <font color="#428bca"> Lovely  </font><font color="#000"> Hospital</font> </td>
+					<td> <br> <br>
+						<font size="4px"> 
+							<a href="index.html">HOME</a> 
+							<a href="about.html">ABOUT US</a>  
+							<a href="service.html">SERVICE</a>
+							<a href="doctor.html">OPD SCHEDULE</a> 
+							<a href="contact.html">CONTACT US</a>
+                                                        <a href="login2.html">LOGIN</a>
+						</font>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+	<div class="middle">
+		<div style="background-image:url('img/a.jpg');">
+		<p>
+			<br> <br>
+					Health Care Services  <br>
+			<font size="5px"> We Care About Your Health </font>
+		</p> 
+		</div>
+	</div>
+	
+	<div class="bottom">
+		<div>
+			<table border="0">
+				<tr>
+					<td width="700px">
+						<font color="#000"> We are medical center </font> <br> <br>
+
+					<font color="#000" size="5px"> We Have Medicare Plan Options for You! </font> <br> <br>
+
+Come here and feel the difference. we serve here for humanity.<br><br>
+
+This is your own hospital. Cooperate with us little bit yours and little bit ours will do the job <br><br>
+<ul>
+<li>Life is precious
+<li>Enjoy life while you can. It can be taken in a heart beat
+<li>We serve for humanity
+</ul>
+<br>
+ </td>
+					
+					
+					<td> </td>
+				</tr>
+			
+				
+			</table>
+		</div>
+	</div>
+	
+	<div class="bottom_up">
+		<div>
+				Make an Appointment
+				
+				<table>
+				<form>
+										
+					<tr>
+						<td width="500px"> </td>
+						<td>	<input type="text" name="name" placeholder="First Name">
+						<td> 	<input type="text" name="name1" placeholder="Last Name">
+					</tr>
+					<tr height="30px">
+						
+					</tr>
+					<tr>
+						<td width="500px"> </td>
+						<td>	<input type="email" name="email" placeholder="Email Id">
+						<td> 	<input type="text" name="mobile" placeholder="Mobile No" maxlength="10">
+					</tr>
+					
+					<tr height="30px">
+						
+					</tr>
+					<tr>
+						<td width="500px"> </td>
+						<td>	<select> <option> -- Sex -- </option> <option> Male </option> <option> Female </option> </select>
+						<td> 	<input type="text" name="date" placeholder="appointment date">
+					</tr>
+					
+						<tr height="30px">
+						
+					</tr>
+					<tr>
+						<td width="500px"> </td>
+						<td colspan="2">	<textarea name="message" placeholder="Message"> </textarea>
+					</tr>
+					
+						<tr height="30px">
+						
+					</tr>
+					<tr>
+						<td width="500px"> </td>
+						<td colspan="2">	<button type="submit" onclick="abc()"> SUBMIT </button>
+					</tr>
+	</form>			</table>
+				
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	<div class="nav_down">
+		<div>
+		 &copy; Lovely Hospital, site designed & developed by Innam Ul Haq 
+		</div>
+	</div>
+	
